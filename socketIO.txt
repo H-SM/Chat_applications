@@ -1,0 +1,17 @@
+JS library for real time applications .. 
+
+ref https://socket.io/docs/v4/
+
+
+library that enables low-latency, bidirectional and event-based communication between a client and a server.
+
+it is a web-socket for 2 ways interaction between the web server and the user... this makes the webpage more efficient for copmmunication with the user or even between 2 user,having less numebr of wait time between 2 requests <could be anything like showing of the message to everyone in the chat> 
+
+the user who is upadte the info< doing a text reply> , POST out the aspect to server to process it and show it to everyone in the chat
+
+teh 2 way connection is like a packet-checker,  user side sedns info and the server gives a feedback about the reaching of the info without a loss to the server and performance of all the action over the server to show the message...
+
+THERE WILL BE 2 SERVERS -> 
+. one client-side -> indep webpage connected to the node side to give request
+. one will be node-server -> which listens over for request
+

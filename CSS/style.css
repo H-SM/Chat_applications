@@ -1,0 +1,134 @@
+/* CSS Styles */
+
+/* Update the body background and container styles */
+body {
+    background-color: #36393f;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: #2f3136;
+    border-radius: 8px;
+    color: #fff;
+    overflow-y: scroll;
+    padding: 20px;
+    margin-bottom: 70px;
+  }
+  
+  /* Update the message styles */
+  .message {
+    background-color: #40444b;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 80%;
+  }
+  
+  .message.left {
+    float: left;
+    clear: both;
+    margin-right: 20px;
+  }
+  
+  .message.right {
+    float: right;
+    clear: both;
+    background-color: #7289da;
+  }
+  
+  .message.left::after,
+  .message.right::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .message.left::after {
+    visibility: hidden;
+  }
+  
+  .message-info {
+    font-size: 12px;
+    color: #80878e;
+    margin-top: 5px;
+  }
+  
+  /* Update the input and button styles */
+  #send-container {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #36393f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #messageInp {
+    flex: 1;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #40444b;
+    color: #fff;
+  }
+  
+  .btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #7289da;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #677bc4;
+  }
+  
+  /* Update the header styles */
+  nav {
+    background-color: #7289da;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .users-list {
+    position: fixed;
+    right: 20px;
+    top: 60px;
+    background-color: #2f3136;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .user {
+    margin-bottom: 5px;
+  }
+  
+  .online-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #43b581;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
